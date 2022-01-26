@@ -7,7 +7,7 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
-  late int selectedValue = 0;
+  late int selectedValue = 5;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
